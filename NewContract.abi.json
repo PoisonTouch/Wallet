@@ -11,38 +11,26 @@
 			]
 		},
 		{
-			"name": "sendTransaction",
+			"name": "renderHelloWorld",
 			"inputs": [
-				{"name":"dest","type":"address"},
-				{"name":"value","type":"uint128"},
-				{"name":"bounce","type":"bool"},
-				{"name":"flag","type":"uint16"}
+			],
+			"outputs": [
+				{"name":"value0","type":"string"}
+			]
+		},
+		{
+			"name": "touch",
+			"inputs": [
 			],
 			"outputs": [
 			]
 		},
 		{
-			"name": "sendWithoutCom",
+			"name": "sendValue",
 			"inputs": [
 				{"name":"dest","type":"address"},
-				{"name":"value","type":"uint128"}
-			],
-			"outputs": [
-			]
-		},
-		{
-			"name": "sendWithCom",
-			"inputs": [
-				{"name":"dest","type":"address"},
-				{"name":"value","type":"uint128"}
-			],
-			"outputs": [
-			]
-		},
-		{
-			"name": "sendAllAndDestroy",
-			"inputs": [
-				{"name":"dest","type":"address"}
+				{"name":"amount","type":"uint128"},
+				{"name":"bounce","type":"bool"}
 			],
 			"outputs": [
 			]
